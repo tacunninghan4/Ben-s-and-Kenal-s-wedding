@@ -2,30 +2,6 @@
 <html lang="en">
 
 
-<style>
- p
-    {font-size: 20px;
-     font-family: 'Courier New', Courier, monospace;
-      background-color: mediumvioletred;
-
-
-    } 
-
- ul
-    {
-    background-color: palevioletred;
-    }
-
-
-
-
-</style>
-
-
-
-
-
-
 
 
 <head>
@@ -33,11 +9,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fuggles&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
-
+<body>
+    <script src="./index.js"></script>
 <h1>
- Ben's-and-Kendal's-Wedding-plans
- <form action="/action_page.php">
+ Ben's-and-Kendal's-Wedding-plans</h1>
+<img src="./ben.jpeg" alt="">
+ <!-- <form action="/action_page.php">
    
     <label for="answer">Fill in the blank with a noun:</label><br><br>
      <input type="answer"> 
@@ -46,66 +28,39 @@
 
     
      
-  </form> 
-<ul>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-</ul>
+  </form>  -->
+  <style>
+ 
+
+ h1{
+    font-family: 'Fuggles', cursive;
+    font-weight: bolder;
+    color: rgb(156, 10, 10)
+}
+
+ 
 
 
+</style>
 
-<p> 
-    Ben and Kendal had 1.      month to prepare for their wedding. While making plans Ben had lots of 2. suggstions While Kendal's were more3. Ben wanted to wear a 4. 5. to the wedding but upon seeing Ben in his outfit Kendal 6. and decided that a7.  8. would be better suited for the big day. Ben however did not get a say in what Kendal would be wearing on the big day but she know the 9. 10. 11. that she decided on. All in all Bes's and Kendal's wedding planning was a(n) 12. sucess. They especially think that their favour 13. hit with the guest    
-   
-
-
-
-
-
-
-
-
-
-</p>
-    
+<input type="text" id="wordOne" placeholder="number 1-12">
+<input type="text" id="wordTwo" placeholder="adjective">
+<input type="text" id="wordThree" Placeholder="adjective">
+<input type="text" id="wordFour" placeholder="verb">
+<input type="text" id="wordFive" placeholder="noun">
+<input type="text" id="wordSix" placeHolder="">
+<input type="text" id="wordSeven"placeHolder="verb">
+<input type="text" id="wordEight" placeHolder="noun">
+<input type="text" id="wordNine" placeHolder="ver">
+<input type="text" id="wordTen" placeHolder="verb">
+<input type="text" id="wordEleven" placeholder="noun">
+<input type="text" id="wordTweleve" placeHolder="verb">
+<input type="text" id="wordThirteen" placeHolder="verb">
+<button onclick="createParagraph()">Submit</button>
+<div id="answer"></div>
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</h1>
-
-
-
-<body>
-    
 </body>
 </html>
